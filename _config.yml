@@ -1,0 +1,56 @@
+title: m4yours
+description: Build or scale up your software development team
+author: m4yours Team
+github: https://github.com/m4yours
+about: The right software development partner can change everything. We help tech companies to scale up by providing them with agile software development teams.
+disqus_shortname: m4yours
+google_analytics: UA-XXXXXXXX-Y
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/m4yours"
+
+share:
+  twitter_username: github.io
+  fb_appid: 3357728117650250
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+#    - text: XML Feed
+#      url: /feed.xml
+
+url: "https://m4yours.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
